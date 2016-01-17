@@ -1,0 +1,6 @@
+////////////////////////////////////////////////////////
+// Fermeture de toute les banques -
+// - argument0 Identifiant de la banque.
+// - Renvoie 0 sinon un code d'erreur.
+////////////////////////////////////////////////////////
+return external_call(global.dll_GMWUnloadBank, argument0);

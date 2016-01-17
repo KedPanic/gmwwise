@@ -1,0 +1,9 @@
+////////////////////////////////////////////////////////
+// Enregistrement d'un codec.
+// - argument0 Type de codec.
+// - Renvoie  0 ou un code d'erreur.
+//
+// List des codecs:
+// 0 Vorbis
+////////////////////////////////////////////////////////
+external_call(global.dll_GMWRegisterCodec, argument0);

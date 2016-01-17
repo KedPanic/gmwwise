@@ -1,0 +1,5 @@
+////////////////////////////////////////////////////////
+// Suppression d'un groupe de "game object".
+// - argument0 Identifiant du groupe de "game object".
+////////////////////////////////////////////////////////
+external_call(global.dll_GMWUnregisterGroupGameObj, argument0);
